@@ -214,3 +214,23 @@ h1 {
     font-weight: bold;
     color: #deb887;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        padding: 60px 20px;
+        gap: 60px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        margin: 0 auto;
+    }
+
+    .coffee {
+        margin: 0 auto;
+    }
+}
